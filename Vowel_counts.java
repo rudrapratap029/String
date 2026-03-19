@@ -1,6 +1,7 @@
 
 import java.util.*;
 public class Vowel_counts {
+    
     public static void main (String[] args){
         Scanner sc = new Scanner(System.in);
         String s = sc.next();
