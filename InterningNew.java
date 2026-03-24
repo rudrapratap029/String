@@ -4,6 +4,7 @@ public class InterningNew {
         String s1 = new String("Rudra");
         
         String s2 = new String("Rudra");
+        
         System.out.println(s1 == s2); // false
         System.out.println(s1.equals(s2)); // true
 
