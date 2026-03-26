@@ -5,6 +5,7 @@ public class leetcode28 {
         String needle = "Pr";
 
         for (int i = 0; i <= haystack.length() - needle.length(); i++) {
+            
             if (haystack.substring(i, i + needle.length()).equals(needle)) {
                 System.out.println(i);
                 return;
